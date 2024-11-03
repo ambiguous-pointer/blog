@@ -1,0 +1,18 @@
+docker run -i -t -d -p 8081:80 -p 8443:443 --security-opt seccomp=unconfined --name onlyoffice --restart=always 
+-v /opt/dockerfile/onlyoffice/log:/var/log/onlyoffice 
+-v /opt/dockerfile/onlyoffice/data:/var/www/onlyoffice/Data 
+-v /opt/dockerfile/onlyoffice/lib:/var/lib/onlyoffice 
+-v /opt/dockerfile/onlyoffice/db:/var/lib/postgresql 
+-v /opt/dockerfile/onlyoffice/nginx:/etc/onlyoffice/documentserver/nginx 
+-v /opt/dockerfile/onlyoffice/nginx/default.json:/etc/onlyoffice/documentserver/default.json 
+-v /home:/home onlyoffice/documentserver
+
+
+docker run -i -t -d -p 9081:80 -p 28443:443 --security-opt seccomp=unconfined --name onlyofficeTwo --restart=always
+-v /opt/dockerfile/onlyofficeTwo/log:/var/log/onlyoffice
+-v /opt/dockerfile/onlyofficeTwo/data:/var/www/onlyofficeTwo/Data
+-v /opt/dockerfile/onlyofficeTwo/lib:/var/lib/onlyoffice
+-v /opt/dockerfile/onlyofficeTwo/db:/var/lib/postgresql
+-v /opt/dockerfile/onlyofficeTwo/nginx:/etc/onlyoffice/documentserver/nginx
+-v /opt/dockerfile/onlyofficeTwo/nginx/default.json:/etc/onlyoffice/documentserver/default.json
+-v /home:/home onlyoffice/documentserver

@@ -10,6 +10,8 @@ import { ref, onMounted } from 'vue'
 // 必须和模板里的 ref 同名
 const canvas = ref(null)
 onMounted(() => {
+    console.log("组件");
+    
     if (!canvas.value.getContext) {
         console.log("error"); // canvas.value not supported, exit.
     } else {

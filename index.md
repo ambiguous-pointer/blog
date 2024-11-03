@@ -6,13 +6,19 @@ hero:
   name: "远赴人间惊鸿宴"
   text: "一睹人间盛世宴"
   tagline: 何其有幸 得以相识
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
+  actions:
+    - theme: brand
+      text: Markdown Examples
+      link: /markdown-examples
+    - theme: alt
+      text: API Examples
+      link: /api-examples
+    - theme: alt
+      text: API Examples
+      link: /api-examples
+    - theme: alt
+      text: 常见链接
+      link: /web_links
 
 features:
   - title: Feature A
@@ -23,3 +29,12 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+
+## Getting Started
+
+You can get started using VitePress right away using `npx`!
+
+```sh
+npm init
+npx vitepress init
+```
