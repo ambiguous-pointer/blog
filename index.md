@@ -18,7 +18,7 @@ hero:
       link: /api-examples
     - theme: alt
       text: 常见链接
-      link: /web_links
+      link: /pages_markdown/web_links
 
 features:
   - title: Feature A
