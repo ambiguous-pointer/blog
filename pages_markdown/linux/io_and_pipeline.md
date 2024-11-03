@@ -36,7 +36,7 @@ IO可以是广泛的文件、设备操作，而管道则更专注于进程间的
 
 [MySQL8 Buffer Pool](https://www.bilibili.com/video/BV1JW4y1179m?t=271.9&p=191)
 
-[Redis 6新特性的应用]()
+[Redis 6新特性的应用](https://www.bilibili.com/video/BV1JW4y1179m?t=271.9&p=191)
 
 [redis](https://www.cnblogs.com/breezefaith/p/17984580)
 
