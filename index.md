@@ -30,11 +30,19 @@ features:
 ---
 
 
-## Getting Started
 
-You can get started using VitePress right away using `npx`!
 
-```sh
-npm init
-npx vitepress init
-```
+## Markdown Content
+
+<span>定义组件</span>
+<CustomComponent/>
+
+<script setup>
+import CustomComponent from './pages/index.vue'
+import { ref } from 'vue'
+</script>
+<style module>
+.details{
+  color: red;
+}
+</style>

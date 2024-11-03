@@ -10,7 +10,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     // siteTitle: '小意的博客',
     siteTitle: false,
-    logo: '/favicon.ico',
+    logo: '/images.jpg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'gitee', link: 'https://gitee.com/' },
