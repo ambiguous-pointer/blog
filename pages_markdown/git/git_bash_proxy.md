@@ -15,6 +15,10 @@ git config --global https.proxy "https://127.0.0.1:2080"
 # 设置socks5代理
 git config --global http.proxy socks5://10.191.131.156:3128/
 git config --global https.proxy socks5://10.191.131.156:3128/
+# 设置socks5代理
+git config http.proxy socks5://127.0.0.1:10808/
+git config https.proxy socks5://127.0.0.1:10808/
+git config http.sslVerify false
 # 取消代理
 git config --global --unset http.proxy
 git config --global --unset https.proxy
