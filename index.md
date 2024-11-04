@@ -8,14 +8,14 @@ hero:
   tagline: 何其有幸 得以相识
   actions:
     - theme: brand
+      text: Home Examples
+      link: /pages/demo/home
+    - theme: alt
+      text: API Examples
+      link: /pages/demo/api-examples
+    - theme: alt
       text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      link: /pages/demo/markdown-examples
     - theme: alt
       text: 常见链接
       link: /pages_markdown/web_links

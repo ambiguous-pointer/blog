@@ -6,11 +6,7 @@ sidebar: false
 aside: left 
 lastUpdated: true
 ---
-### Title <Badge type="info" text="default" />
-### Title <Badge type="tip" text="^1.9.0" />
-### Title <Badge type="warning" text="beta" />
-### Title <Badge type="danger" text="caution" />
-### Title <Badge type="danger">custom element</Badge>
+<br/>[博客](https://xaviw.github.io/XaviDocs/)
 ## Q&A
 <br/>[【踩坑记录：集成Swagger访问踩坑，多种404解决方法】_swagger context-path-CSDN博客](https://blog.csdn.net/weixin_44126778/article/details/135652009)
 <br/>[@RestControllerAdvice作用及原理 - 隔壁w王叔叔 - 博客园](https://www.cnblogs.com/UncleWang001/p/10949318.html)
