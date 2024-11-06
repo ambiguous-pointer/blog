@@ -1,44 +1,101 @@
+## weblinks
+[@Log (and friends)](https://projectlombok.org/features/log)
+[44. 日志管理之systemd日志,持久化设置,journal,systemd-journald,查看日志(journalctl)_systemd 日志-CSDN博客](https://blog.csdn.net/wangzhicheng987/article/details/122325623)
+[Configuration :: Apache Log4j](https://logging.apache.org/log4j/2.x/manual/config-intro.html)
+[Docker - 实现本地镜像的导出、导入（export、import、save、load）](https://www.hangge.com/blog/cache/detail_2411.html#:~:text=%EF%BC%881%EF%BC%89%E4%BD%BF%E7%94%A8%20do)
+[docker: Error response from daemon: No command specified. 解决-CSDN博客](https://blog.csdn.net/u013189824/article/details/109623741)
+[Download | Prometheus](https://prometheus.io/download/)
+[GIT pull 和 fetch](https://web.archive.org/web/20200211180001/http://git.661346.n2.nabble.com/No-quot-pull-quot-in-git-gui-td1121058.html)
+[GitHub Proxy 代理加速](https://ghp.ci/)
+[java - log4j 2向控制台附加器添加多种颜色 - VoidCC --- java - log4j 2 adding multiple colors to console appender - Stack Overflow](https://stackoverflow.com/questions/21979699/log4j-2-adding-multiple-colors-to-console-appender)
+[javax.validation 参数验证 - 不朽丶 - 博客园](https://www.cnblogs.com/iathanasy/p/13409941.html#:~:text=%E4%BB%80%E4%B9%88%E6%98%AF%20java)
+[JAVA在线代码生成](https://java.bejson.com/generator/main)
+[Linux less 命令 | 菜鸟教程](https://www.runoob.com/linux/linux-comm-less.html)
+[Linux ssh-keygen命令全面教程：生成和管理SSH密钥（附实例详解和注意事项）-Linux入门自学网](https://bashcommandnotfound.cn/article/linux-ssh-keygen-command#:~:text=ssh-keyg)
+[Linux在shell终端中清空DNS缓存,刷新DNS的方法(ubuntu,debian)_debian删除dns-CSDN博客](https://blog.csdn.net/zhangpeterx/article/details/83895446)
+[Linux域名解析（host、nslookup、dig、DNS）_linux如何解析域名-CSDN博客](https://blog.csdn.net/renfeigui0/article/details/101214865)
+[Linux文本三剑客超详细教程---grep、sed、awk - alonghub - 博客园](https://www.cnblogs.com/along21/p/10366886.html)
+[logback console控制台输出 - 总结造就再进步 - 博客园](https://www.cnblogs.com/jybky/p/12188462.html#:~:text=logback%E8%BE%93)
+[Maven – Remote repository access through authenticated HTTPS](https://maven.apache.org/guides/mini/guide-repository-ssl.html)
+[maven--打包项目时发布源码的方法_maven 打包源码-CSDN博客](https://blog.csdn.net/feiying0canglang/article/details/126905974)
+[maven下载依赖时候忽略SSL证书校验_maven 忽略ssl-CSDN博客](https://blog.csdn.net/qq_22041375/article/details/103491941)
+[MyBatis-Plus 分页查询以及自定义sql分页_mybatis-plus分页-CSDN博客](https://blog.csdn.net/weixin_38111957/article/details/91554108)
+[mybatis-plus 开启与关闭 SQL 日志打印_mybatis plus 开启sql记录-CSDN博客](https://blog.csdn.net/jiangchao858/article/details/115676371#:~:text=Mybatis-#:~:text=Mybatis-)
+[mybatis-plus在线生成](http://www.javacoder.top/mybatis_plus.html)
+[mybatis-plus配合logback 设置sql语句输出到文件并关闭控制台输出_mybatisplus 记录查询sql日志,并使用logback输出到文件-CSDN博客](https://blog.csdn.net/qq_42881637/article/details/117001899#:~:text=Mybatis)
+[MybatisPlus多表连接查询-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1937160)
+[mybist-plus logbak 开启sql日志 - 搜索](https://cn.bing.com/search?q=mybist-plus+logbak+%E5%BC%80%E5%90%AFsql%E6%97%A5%E5%BF%97&qs=n&form=QBRE&sp=-1&lq=0&pq=mybist-plus+log%27ba%27k+%E5%BC%80%E5%90%AFsql%E6%97%A5%E5%BF%97&sc=9-28&sk=&cvid=1228CC3341E74296822B3AE1BAB20425&ghsh=0&ghacc=0&ghpl=&ntref=1)
+[mysql update时间去掉横杠_mob64ca12e10b51的技术博客_51CTO博客](https://blog.51cto.com/u_16213367/9285018)
+[Mysql 分页语句Limit用法 - 野狼谷 - 博客园](https://www.cnblogs.com/yelanggu/p/12924821.html)
+[mysql中分页查询(LIMIT和OFFSET关键字讲解)一语道破天机_mysql offset1-CSDN博客](https://blog.csdn.net/czh500/article/details/86270424)
+[Mysql字符串截取总结：left()、right()、substring()、substring_index() - 猿人谷 - 博客园](https://www.cnblogs.com/heyonggang/p/8117754.html)
+[MySQL时间函数 NOW()、CURDATE()、SYSDATE()、CURTIME()、CURRENT_TIMESTAMP()、CURRENT_DATE()和CURRENT_TIME()区别_mysql now()-CSDN博客](https://blog.csdn.net/yhj198927/article/details/135410925)
+[MySQL查询今天的数据（昨天、本月） - 钟小嘿 - 博客园](https://www.cnblogs.com/zys2019/p/14839941.html#:~:text=1.1%E6%96%B9%E6%B3%95%E4%B8%80.)
+[Nacos官网| Nacos 配置中心 | Nacos 下载| Nacos 官方社区 | Nacos 官网](https://nacos.io/)
+[registry - Official Image | Docker Hub](https://hub.docker.com/_/registry)
+[RPC——RPC协议介绍及原理详解RPC（Remote Procedure Call Protocol） 远程过程调用协 - 掘金](https://juejin.cn/post/7243263236622155834)
+[Spring Boot系列——如何集成Log4j2 - JackieZheng - 博客园](https://www.cnblogs.com/bigdataZJ/p/spring-boot-log4j2.html)
+[Spring Cloud Alibaba official website _ Springboot _ Microservices practical tutorial - Alibaba Cloud-Alibaba CloudSpring Cloud AlibabaOfficial Website](https://sca.aliyun.com/en/)
+[Spring Data Redis](https://spring.io/projects/spring-data-redis)
+[springboot：数据库（URL）参数介绍_springboot url-CSDN博客](https://blog.csdn.net/weixin_43296313/article/details/122998245)
+[SpringBoot之实体参数的详细解析-阿里云开发者社区](https://developer.aliyun.com/article/1488395)
+[SpringBoot项目从0到1配置logback日志打印 - sum墨 - 博客园](https://www.cnblogs.com/wlovet/p/17517263.html)
+[SQL INSERT INTO SELECT 语句 | 菜鸟教程](https://www.runoob.com/sql/sql-insert-into-select.html)
+[ssh ProxyJump - 搜索](https://cn.bing.com/search?q=ssh+ProxyJump&PC=U316&FORM=CHROMN&ntref=1)
+[SSH to remote hosts through a proxy or bastion with ProxyJump | Enable Sysadmin](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump)
+[SSH 通过跳板机直接访问内网机器 - 知乎](https://zhuanlan.zhihu.com/p/74193910#:~:text=%E9%9C%80%E8%A6%81%20OpenS)
+[VMware Workstation Pro 个人免费版下载及安装指南 - 系统极客](https://www.sysgeek.cn/install-vmware-workstation-pro/)
+[vmware更新下载地址 CDS Repository - /build/mts/release/bora-24319023/publish/cds/vmw-desktop/ws/17.6.1/24319023/windows/core](https://softwareupdate.vmware.com/cds/vmw-desktop/ws/17.6.1/24319023/windows/core/)
+[使用 nginx 验证代理 | CNCF分布 --- Authenticate proxy with nginx | CNCF Distribution](https://distribution.github.io/distribution/recipes/nginx/)
+[入门 :: Apache Log4j --- Getting started :: Apache Log4j](https://logging.apache.org/log4j/2.x/manual/getting-started.html)
+[品茗IT-Sql生成mybatis基本代码](https://www.pomit.cn/java/project/sqlToMapper.html#:~:text=%E8%AF%B7%E8%BE%93%E5%85%A5SQL%EF%BC%9A)
+[在线 SQL 转 mybatis plus - 搜索](https://cn.bing.com/search?q=%E5%9C%A8%E7%BA%BF+SQL+%E8%BD%AC+mybatis+plus&qs=n&form=QBRE&sp=-1&lq=0&pq=%E5%9C%A8%E7%BA%BFsql+%E8%BD%AC+mybatis+plus&sc=10-20&sk=&cvid=4C47D0F6B986461DA043B001B2E008DC&ghsh=0&ghacc=0&ghpl=)
+[在线SQL转Java实体类 - JSON中文网](https://www.json.cn/sql2java/#:~:text=SQL%E8%BD%ACJava)
+[如何在 Linux 中使用 SSH ProxyJump 和 SSH ProxyCommand](https://cn.linux-console.net/?p=2774#:~:text=SSH%20Prox)
+[布局 :: Apache Log4j --- Layouts :: Apache Log4j](https://logging.apache.org/log4j/2.x/manual/layouts.html)
+[开始使用 |普罗米修斯 --- Getting started | Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/)
+[快速开始 | MyBatis-Plus](https://baomidou.com/getting-started/#%E7%BC%96%E7%A0%81)
+[掌门教育微服务体系 Solar | 阿里巴巴 Nacos 企业级落地上篇](https://mp.weixin.qq.com/s?__biz=MzUzNzYxNjAzMg==&mid=2247492337&idx=1&sn=71df8eee2b4ab038a502bebcb2d3ced2&chksm=fae6e93ecd91602888cfee80041c6b37566a5e5cd1066df16439d320438c07a9375d3345554d&scene=21#wechat_redirect)
+[条件构造器 | MyBatis-Plus](https://baomidou.com/guides/wrapper/)
+[深入解析MybatisPlus多表连接查询实践_mybatisplus多表查询-CSDN博客](https://blog.csdn.net/Da_zhenzai/article/details/135776647#:~:text=%E9%80%9A%E8%BF%87%20%E4%B8%80%E5%AF%B9%E4%B8%80%E6%9F%A5%E8%AF%A2)
+[目前为止全网最全的 SpringBoot 参数传递方案 - 知乎](https://zhuanlan.zhihu.com/p/89223401#:~:text=%E4%BC%A0%E8%BE%93%E5%AF%B9%E8%B1%A1%E6%9C%89%E5%AE%9E%E4%BD%93%EF%BC%8C)
+[解决方案：使用Vscode运行命令时,.出现 __vsc_prompt_cmd_original: command not found_vscode连接服务器后command-CSDN博客](https://blog.csdn.net/qq_44949985/article/details/128902944)
+[部署注册服务器 | CNCF分布 --- Deploy a registry server | CNCF Distribution](https://distribution.github.io/distribution/about/deploying/)
+[部署注册服务器 | CNCF分布 --- Deploy a registry server | CNCF Distribution](https://distribution.github.io/distribution/about/deploying/#native-basic-auth)
+[配置| CNCF分配---配置注册表| CNCF分布](https://distribution.github.io/distribution/about/configuration/)
+[阿里巴巴Spring云 --- Spring Cloud Alibaba](https://spring.io/projects/spring-cloud-alibaba)
+https://139.186.120.130:39001
+https://139.186.120.130:39001/#/login?redirect=%2Fdashboard
+
+
+```text
+所属	官网	评价
+华为	https://mirrors.huaweicloud.com/	速度 No.1
+清华	https://mirrors.tuna.tsinghua.edu.cn/	速度No.2
+阿里云	https://mirrors.aliyun.com/	速度 NO.3
+网易	https://mirrors.163.com/	速度 No.4
+中科大	https://mirrors.ustc.edu.cn/	速度 No.5
+```
+
+
+```shell
 java -jar -Xmx1024M -Xms1024M -Dspring.profiles.active=GuoChuangPROD /home/gzaccount/prodjar/guochuangjar/order-online/order-online-deploy-0.0.1-SNAPSHOT.jar
 
 mvn -s /home/ylx/ylx-project/mvn/settings.xml  -f pom.xml  -o clean install package -Dmaven.repo.local=/home/ylx/ylx-project/mvn/repository/
 
 cd /home/gzaccount/prodjar/guochuangjar/order-gateway
-[by-ylx]
-129.28.183.251
-root
-Kx2pbm3M.,QX+n
 
-[by-spgz-test]
-94.191.1.122
-root
-[F2_|@Ve5hyn
+java -jar -Xmx1024M -Xms1024M -Dspring.profiles.active=GuoChuangPROD /home/gzaccount/prodjar/guochuangjar/mgmt-controller/mgmt-controller-0.0.1-SNAPSHOT.jar
 
-[by-new-ylx]
-139.186.226.52
-root
-Gp=+@d4}WtKCjg5
-```shell
-  java -jar -Xmx1024M -Xms1024M -Dspring.profiles.active=GuoChuangPROD /home/gzaccount/prodjar/guochuangjar/mgmt-controller/mgmt-controller-0.0.1-SNAPSHOT.jar
-  
-  java -jar -Xmx1024M -Xms1024M -Dspring.profiles.active=GuoChuangPROD /home/gzaccount/prodjar/guochuangjar/mgmt-controller/mgmt-controller-0.0.1-SNAPSHOT.jar
-  
-  java -jar -Xmx1024M -Xms1024M -Dspring.profiles.active=GuoChuangPROD /home/gzaccount/prodjar/guochuangjar/order-online/order-online-deploy-0.0.1-SNAPSHOT.jar
-  
-  java -jar -Xmx1024M -Xms1024M -Dspring.profiles.active=GuoChuangPROD /home/gzaccount/prodjar/guochuangjar/mgmt-controller/mgmt-controller-0.0.1-SNAPSHOT.jar
+java -jar -Xmx1024M -Xms1024M -Dspring.profiles.active=GuoChuangPROD /home/gzaccount/prodjar/guochuangjar/mgmt-controller/mgmt-controller-0.0.1-SNAPSHOT.jar
 
+java -jar -Xmx1024M -Xms1024M -Dspring.profiles.active=GuoChuangPROD /home/gzaccount/prodjar/guochuangjar/order-online/order-online-deploy-0.0.1-SNAPSHOT.jar
 
+java -jar -Xmx1024M -Xms1024M -Dspring.profiles.active=GuoChuangPROD /home/gzaccount/prodjar/guochuangjar/mgmt-controller/mgmt-controller-0.0.1-SNAPSHOT.jar
 
 yum install epel-release git gcc gcc-c++ cmake3 qt5-qtbase-devel python python-devel python-pip cmake python-devel numpy python34-numpy gtk2-devel libpng-devel jasper-devel openexr-devel libwebp-devel libjpeg-turbo-devel libtiff-devel libdc1394-devel tbb-devel eigen3-devel gstreamer-plugins-base-devel freeglut-devel mesa-libGL mesa-libGL-devel boost boost-thread boost-devel libv4l-devel -y
 
 ```
-https://139.186.120.130:39001
-https://139.186.120.130:39001/#/login?redirect=%2Fdashboard
-
-
-/usr/local/java/jdk8u252-b09/bin/java -Dzookeeper.log.dir=/usr/local/zookeeper/zookeeper/bin/../logs -Dzookeeper.log.file=zookeeper-root-server-VM-0-198-tencentos.log -Dzookeeper.root.logger=INFO,CONSOLE -XX:+HeapDumpOnOutOfMemoryError -XX:OnOutOfMemoryError=kill -9 %p -cp /usr/local/zookeeper/zookeeper/bin/../zookeeper-server/target/classes:/usr/local/zookeeper/zookeeper/bin/../build/classes:/usr/local/zookeeper/zookeeper/bin/../zookeeper-server/target/lib/*.jar:/usr/local/zookeeper/zookeeper/bin/../build/lib/*.jar:/usr/local/zookeeper/zookeeper/bin/../lib/zookeeper-prometheus-metrics-3.7.0.jar:/usr/local/zookeeper/zookeeper/bin/../lib/zookeeper-jute-3.7.0.jar:/usr/local/zookeeper/zookeeper/bin/../lib/zookeeper-3.7.0.jar:/usr/local/zookeeper/zookeeper/bin/../lib/snappy-java-1.1.7.7.jar:/usr/local/zookeeper/zookeeper/bin/../lib/slf4j-log4j12-1.7.30.jar:/usr/local/zookeeper/zookeeper/bin/../lib/slf4j-api-1.7.30.jar:/usr/local/zookeeper/zookeeper/bin/../lib/simpleclient_servlet-0.9.0.jar:/usr/local/zookeeper/zookeeper/bin/../lib/simpleclient_hotspot-0.9.0.jar:/usr/local/zookeeper/zookeeper/bin/../lib/simpleclient_common-0.9.0.jar:/usr/local/zookeeper/zookeeper/bin/../lib/simpleclient-0.9.0.jar:/usr/local/zookeeper/zookeeper/bin/../lib/netty-transport-native-unix-common-4.1.59.Final.jar:/usr/local/zookeeper/zookeeper/bin/../lib/netty-transport-native-epoll-4.1.59.Final.jar:/usr/local/zookeeper/zookeeper/bin/../lib/netty-transport-4.1.59.Final.jar:/usr/local/zookeeper/zookeeper/bin/../lib/netty-resolver-4.1.59.Final.jar:/usr/local/zookeeper/zookeeper/bin/../lib/netty-handler-4.1.59.Final.jar:/usr/local/zookeeper/zookeeper/bin/../lib/netty-common-4.1.59.Final.jar:/usr/local/zookeeper/zookeeper/bin/../lib/netty-codec-4.1.59.Final.jar:/usr/local/zookeeper/zookeeper/bin/../lib/netty-buffer-4.1.59.Final.jar:/usr/local/zookeeper/zookeeper/bin/../lib/metrics-core-4.1.12.1.jar:/usr/local/zookeeper/zookeeper/bin/../lib/log4j-1.2.17.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jline-2.14.6.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jetty-util-ajax-9.4.38.v20210224.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jetty-util-9.4.38.v20210224.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jetty-servlet-9.4.38.v20210224.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jetty-server-9.4.38.v20210224.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jetty-security-9.4.38.v20210224.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jetty-io-9.4.38.v20210224.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jetty-http-9.4.38.v20210224.jar:/usr/local/zookeeper/zookeeper/bin/../lib/javax.servlet-api-3.1.0.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jackson-databind-2.10.5.1.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jackson-core-2.10.5.jar:/usr/local/zookeeper/zookeeper/bin/../lib/jackson-annotations-2.10.5.jar:/usr/local/zookeeper/zookeeper/bin/../lib/commons-cli-1.4.jar:/usr/local/zookeeper/zookeeper/bin/../lib/audience-annotations-0.12.0.jar:/usr/local/zookeeper/zookeeper/bin/../zookeeper-*.jar:/usr/local/zookeeper/zookeeper/bin/../zookeeper-server/src/main/resources/lib/*.jar:/usr/local/zookeeper/zookeeper/bin/../conf:/usr/local/java/jdk8u252-b09/lib:/usr/local/java/jdk8u252-b09/jre/lib: -Xmx1000m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.local.only=false org.apache.zookeeper.server.quorum.QuorumPeerMain /usr/local/zookeeper/zookeeper/bin/../conf/zoo.cfg
-
-
-[GIT pull 和 fetch](https://web.archive.org/web/20200211180001/http://git.661346.n2.nabble.com/No-quot-pull-quot-in-git-gui-td1121058.html)
 
 ```text
 @Null   被注释的元素必须为 null    
@@ -77,29 +134,6 @@ inclusive=true,是小于等于
 @Valid 对po实体类进行校验
 ```
 
-
-https://www.cnblogs.com/iathanasy/p/13409941.html#:~:text=%E4%BB%80%E4%B9%88%E6%98%AF%20java
-
-
-[MySQL时间函数 NOW()、CURDATE()、SYSDATE()、CURTIME()、CURRENT_TIMESTAMP()、CURRENT_DATE()和CURRENT_TIME()区别_mysql now()-CSDN博客](https://blog.csdn.net/yhj198927/article/details/135410925)
-[mysql update时间去掉横杠_mob64ca12e10b51的技术博客_51CTO博客](https://blog.51cto.com/u_16213367/9285018)
-[MySQL查询今天的数据（昨天、本月） - 钟小嘿 - 博客园](https://www.cnblogs.com/zys2019/p/14839941.html#:~:text=1.1%E6%96%B9%E6%B3%95%E4%B8%80.)
-[SQL INSERT INTO SELECT 语句 | 菜鸟教程](https://www.runoob.com/sql/sql-insert-into-select.html)
-[Mysql字符串截取总结：left()、right()、substring()、substring_index() - 猿人谷 - 博客园](https://www.cnblogs.com/heyonggang/p/8117754.html)
-[MyBatis-Plus 分页查询以及自定义sql分页_mybatis-plus分页-CSDN博客](https://blog.csdn.net/weixin_38111957/article/details/91554108)
-[SpringBoot之实体参数的详细解析-阿里云开发者社区](https://developer.aliyun.com/article/1488395)
-[目前为止全网最全的 SpringBoot 参数传递方案 - 知乎](https://zhuanlan.zhihu.com/p/89223401#:~:text=%E4%BC%A0%E8%BE%93%E5%AF%B9%E8%B1%A1%E6%9C%89%E5%AE%9E%E4%BD%93%EF%BC%8C)
-[logback console控制台输出 - 总结造就再进步 - 博客园](https://www.cnblogs.com/jybky/p/12188462.html#:~:text=logback%E8%BE%93)
-[SpringBoot项目从0到1配置logback日志打印 - sum墨 - 博客园](https://www.cnblogs.com/wlovet/p/17517263.html)
-
-
-
-[在线SQL转Java实体类 - JSON中文网](https://www.json.cn/sql2java/#:~:text=SQL%E8%BD%ACJava)
-[在线 SQL 转 mybatis plus - 搜索](https://cn.bing.com/search?q=%E5%9C%A8%E7%BA%BF+SQL+%E8%BD%AC+mybatis+plus&qs=n&form=QBRE&sp=-1&lq=0&pq=%E5%9C%A8%E7%BA%BFsql+%E8%BD%AC+mybatis+plus&sc=10-20&sk=&cvid=4C47D0F6B986461DA043B001B2E008DC&ghsh=0&ghacc=0&ghpl=)
-[品茗IT-Sql生成mybatis基本代码](https://www.pomit.cn/java/project/sqlToMapper.html#:~:text=%E8%AF%B7%E8%BE%93%E5%85%A5SQL%EF%BC%9A)
-[JAVA在线代码生成](https://java.bejson.com/generator/main)
-[mybatis-plus在线生成](http://www.javacoder.top/mybatis_plus.html)
-[Mysql 分页语句Limit用法 - 野狼谷 - 博客园](https://www.cnblogs.com/yelanggu/p/12924821.html)
 
 
 
@@ -153,19 +187,6 @@ sh run-script/gzacctmangateway-restart.sh
 1453 gzacctmangateway-3.11.9-SNAPSHOT.jar
 ```
 
-[mybist-plus logbak 开启sql日志 - 搜索](https://cn.bing.com/search?q=mybist-plus+logbak+%E5%BC%80%E5%90%AFsql%E6%97%A5%E5%BF%97&qs=n&form=QBRE&sp=-1&lq=0&pq=mybist-plus+log%27ba%27k+%E5%BC%80%E5%90%AFsql%E6%97%A5%E5%BF%97&sc=9-28&sk=&cvid=1228CC3341E74296822B3AE1BAB20425&ghsh=0&ghacc=0&ghpl=&ntref=1)
-[mybatis-plus配合logback 设置sql语句输出到文件并关闭控制台输出_mybatisplus 记录查询sql日志,并使用logback输出到文件-CSDN博客](https://blog.csdn.net/qq_42881637/article/details/117001899#:~:text=Mybatis)
-[mybatis-plus 开启与关闭 SQL 日志打印_mybatis plus 开启sql记录-CSDN博客](https://blog.csdn.net/jiangchao858/article/details/115676371#:~:text=Mybatis-#:~:text=Mybatis-)
-
-
-
-[Linux less 命令 | 菜鸟教程](https://www.runoob.com/linux/linux-comm-less.html)
-[Linux文本三剑客超详细教程---grep、sed、awk - alonghub - 博客园](https://www.cnblogs.com/along21/p/10366886.html)
-[Linux域名解析（host、nslookup、dig、DNS）_linux如何解析域名-CSDN博客](https://blog.csdn.net/renfeigui0/article/details/101214865)
-[ssh ProxyJump - 搜索](https://cn.bing.com/search?q=ssh+ProxyJump&PC=U316&FORM=CHROMN&ntref=1)
-[SSH 通过跳板机直接访问内网机器 - 知乎](https://zhuanlan.zhihu.com/p/74193910#:~:text=%E9%9C%80%E8%A6%81%20OpenS)
-[如何在 Linux 中使用 SSH ProxyJump 和 SSH ProxyCommand](https://cn.linux-console.net/?p=2774#:~:text=SSH%20Prox)
-[SSH to remote hosts through a proxy or bastion with ProxyJump | Enable Sysadmin](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump)
 
 
 ```shell
@@ -235,25 +256,6 @@ Version 2.4 20240902
 [root@test_and_build_server ~]#
 
 ```
-
-[maven--打包项目时发布源码的方法_maven 打包源码-CSDN博客](https://blog.csdn.net/feiying0canglang/article/details/126905974)
-[mysql中分页查询(LIMIT和OFFSET关键字讲解)一语道破天机_mysql offset1-CSDN博客](https://blog.csdn.net/czh500/article/details/86270424#:~:text=%2F%2A%E6%B3%A8%E6%84%8F%EF%BC%9Amysql%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%ADLIMIT%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2%E6%97%B6%EF%BC%8C%E7%B4%A2%E5%BC%95%E6%98%AF%E4%BB%8E0%E5%BC%80%E5%A7%8B%E7%9A%84%20%28%E5%8D%B3%E8%A1%A8%E4%B8%AD%E7%AC%AC%E4%B8%80%E6%9D%A1%E6%95%B0%E6%8D%AE%E7%9A%84%E7%B4%A2%E5%BC%95%E6%98%AF0%EF%BC%8C%E7%AC%AC%E4%BA%8C%E6%9D%A1%E6%95%B0%E6%8D%AE%E7%9A%84%E7%B4%A2%E5%BC%95%E6%98%AF1%EF%BC%8C%E4%BB%A5%E6%AD%A4%E7%B1%BB%E6%8E%A8%29%2A%2F%23%E4%BB%A5%E4%B8%8B%E6%9F%A5%E8%AF%A2%E8%AF%AD%E5%8F%A5%E9%83%BD%E5%8F%AF%E4%BB%A5%E6%AD%A3%E7%A1%AE%E6%89%A7%E8%A1%8CSELECT%20%2A%20FROM%20admin%3BSELECT,%2A%20FROM%20admin%20LIMIT%202%2C50%3BSELECT..._mysql%20offset1)
-[MybatisPlus多表连接查询-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1937160)
-[深入解析MybatisPlus多表连接查询实践_mybatisplus多表查询-CSDN博客](https://blog.csdn.net/Da_zhenzai/article/details/135776647#:~:text=%E9%80%9A%E8%BF%87%20%E4%B8%80%E5%AF%B9%E4%B8%80%E6%9F%A5%E8%AF%A2)
-[条件构造器 | MyBatis-Plus](https://baomidou.com/guides/wrapper/)
-[快速开始 | MyBatis-Plus](https://baomidou.com/getting-started/#%E7%BC%96%E7%A0%81)
-
-
-
-https://download.mobatek.net/2422024061715901/MobaXterm_Installer_v24.2.zip
-
-
-所属	官网	评价
-华为	https://mirrors.huaweicloud.com/	速度 No.1
-清华	https://mirrors.tuna.tsinghua.edu.cn/	速度No.2
-阿里云	https://mirrors.aliyun.com/	速度 NO.3
-网易	https://mirrors.163.com/	速度 No.4
-中科大	https://mirrors.ustc.edu.cn/	速度 No.5
 
 
 强制Maven（mvn）重新建立索引通常涉及更新本地仓库中的索引文件或强制IDE（如IntelliJ IDEA）重新解析Maven依赖。以下是一些方法，可以帮助你强制Maven或相关IDE重新建立索引：
@@ -392,29 +394,6 @@ Maven 的生命周期为项目构建提供了一个清晰且可预测的框架�
 
 
 
-[Spring Boot系列——如何集成Log4j2 - JackieZheng - 博客园](https://www.cnblogs.com/bigdataZJ/p/spring-boot-log4j2.html)
-[@Log (and friends)](https://projectlombok.org/features/log)
-[布局 :: Apache Log4j --- Layouts :: Apache Log4j](https://logging.apache.org/log4j/2.x/manual/layouts.html)
-[java - log4j 2向控制台附加器添加多种颜色 - VoidCC --- java - log4j 2 adding multiple colors to console appender - Stack Overflow](https://stackoverflow.com/questions/21979699/log4j-2-adding-multiple-colors-to-console-appender)
-[入门 :: Apache Log4j --- Getting started :: Apache Log4j](https://logging.apache.org/log4j/2.x/manual/getting-started.html)
-[Configuration :: Apache Log4j](https://logging.apache.org/log4j/2.x/manual/config-intro.html)
-
-[RPC——RPC协议介绍及原理详解RPC（Remote Procedure Call Protocol） 远程过程调用协 - 掘金](https://juejin.cn/post/7243263236622155834)
-[Spring Data Redis](https://spring.io/projects/spring-data-redis)
-[Nacos官网| Nacos 配置中心 | Nacos 下载| Nacos 官方社区 | Nacos 官网](https://nacos.io/)
-[阿里巴巴Spring云 --- Spring Cloud Alibaba](https://spring.io/projects/spring-cloud-alibaba)
-[Spring Cloud Alibaba official website _ Springboot _ Microservices practical tutorial - Alibaba Cloud-Alibaba CloudSpring Cloud AlibabaOfficial Website](https://sca.aliyun.com/en/)
-[掌门教育微服务体系 Solar | 阿里巴巴 Nacos 企业级落地上篇](https://mp.weixin.qq.com/s?__biz=MzUzNzYxNjAzMg==&mid=2247492337&idx=1&sn=71df8eee2b4ab038a502bebcb2d3ced2&chksm=fae6e93ecd91602888cfee80041c6b37566a5e5cd1066df16439d320438c07a9375d3345554d&scene=21#wechat_redirect)
-[开始使用 |普罗米修斯 --- Getting started | Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/)
-[Download | Prometheus](https://prometheus.io/download/)
-[GitHub Proxy 代理加速](https://ghp.ci/)
-[VMware Workstation Pro 个人免费版下载及安装指南 - 系统极客](https://www.sysgeek.cn/install-vmware-workstation-pro/)
-
-
-https://softwareupdate.vmware.com/cds/vmw-desktop/ws/17.6.1/24319023/windows/core/
-https://blog.csdn.net/wangzhicheng987/article/details/122325623
-[springboot：数据库（URL）参数介绍_springboot url-CSDN博客](https://blog.csdn.net/weixin_43296313/article/details/122998245)
-
 configurations {
     all {
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
@@ -422,12 +401,6 @@ configurations {
 }
 
 
-https://blog.csdn.net/u013189824/article/details/109623741
-
-
-https://bashcommandnotfound.cn/article/linux-ssh-keygen-command#:~:text=ssh-keyg
-
-https://www.hangge.com/blog/cache/detail_2411.html#:~:text=%EF%BC%881%EF%BC%89%E4%BD%BF%E7%94%A8%20do
 
 ``` cmd
 set JAVA_HOME=D:\WindowsApps\jdk_8u411\jdk
@@ -442,17 +415,6 @@ mvn -U -f "F:\Admin\Projects\gzaccountpay\core\com.gz.epay.ecs3.dependency\pom-t
 mvn -U -f "F:\Admin\Projects\gzaccountpay\gzacct-payment\com.gz.epay.ecs3.paymentfront.dependency\pom-tencent.xml" -s "D:\WindowsApps\apache-maven-3.9.9\conf\bykj-settings.xml" deploy
 mvn -U -f "F:\Admin\Projects\gzaccountpay\gzacct-payment\gateway\pay-gateway-interfaces\pom-tencent.xml" -s "D:\WindowsApps\apache-maven-3.9.9\conf\bykj-settings.xml" deploy
 ```
-
-https://blog.csdn.net/qq_22041375/article/details/103491941
-
-https://blog.csdn.net/qq_44949985/article/details/128902944
-https://maven.apache.org/guides/mini/guide-repository-ssl.html
-https://blog.csdn.net/zhangpeterx/article/details/83895446
-[registry - Official Image | Docker Hub](https://hub.docker.com/_/registry)
-[配置| CNCF分配---配置注册表| CNCF分布](https://distribution.github.io/distribution/about/configuration/)
-[使用 nginx 验证代理 | CNCF分布 --- Authenticate proxy with nginx | CNCF Distribution](https://distribution.github.io/distribution/recipes/nginx/)
-[部署注册服务器 | CNCF分布 --- Deploy a registry server | CNCF Distribution](https://distribution.github.io/distribution/about/deploying/#native-basic-auth)
-[部署注册服务器 | CNCF分布 --- Deploy a registry server | CNCF Distribution](https://distribution.github.io/distribution/about/deploying/)
 
 
 
