@@ -1,3 +1,99 @@
+[规划硬盘域 - OceanStor V500R007 Kunpeng 基础存储业务配置指南(文件业务) - 华为](https://support.huawei.com/enterprise/zh/doc/EDOC1100098153/b38fd87a)
+[几种方法有效屏蔽国外IP恶意扫描-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1643597)
+[ipdeny.com/ipblocks/data/countries/us.zone](https://www.ipdeny.com/ipblocks/data/countries/us.zone)
+[IPdeny IP country CIDR blocks](https://www.ipdeny.com/ipblocks/)
+[全球各国IP地址段国家/地区列表 | IP地址 (简体中文) 🔍](https://zh-hans.ipshu.com/country-list?page=4)
+[美国IP地址列表 | IP地址 (简体中文) 🔍](https://zh-hans.ipshu.com/ip-country/US?page=8)
+
+*.bestclouds.com.cn(HTTPS:443)	
+
+spgznewconfig(HTTPS:4436)
+
+UAT2-测试-嵌入页面(HTTPS:20443)	
+UAT2-测试-的onlyoffice(HTTPS:29000)	
+UAT2-测试-转发(HTTPS:28062)	
+UAT2-测试-转发Eladmin后端(HTTPS:28013)	
+UAT2-测试-转发后端(HTTPS:29061)
+
+国创-生产-11443(HTTPS:11443)	
+国创-生产-eadmin后台(HTTPS:38000)	
+国创-生产-微信后端38061(HTTPS:38061)	
+国创-生产-前端(HTTPS:39001)	
+渝立-生产-前端(HTTPS:39000)	
+
+渝链信-生产-eladmin后端(HTTPS:19060)
+渝链信-生产-gzgateway后端(HTTPS:18099)	
+渝链信-生产-paygateway(HTTPS:18075)	
+渝链信-生产-公证前端(HTTPS:37001)	
+渝链信-生产-商户前端(HTTPS:37002)	
+渝链信-生产-微信后端(HTTPS:19061)	
+渝链信-生产-web_list前端(HTTPS:10443)	
+
+
+渝链信-测试-微信mgmt    (HTTPS:38005)	
+渝链信-测试-后端商户接口(HTTPS:38003)	
+渝链信-测试-后端order-gateway接口(HTTPS:38001)
+渝链信-测试-paygateway(HTTPS:38075)	
+渝链信-测试-web_list(HTTPS:30443)	
+渝链信-测试-公证前端(HTTPS:38004)	
+渝链信-测试-商户前端(HTTPS:38002)	
+
+spgznew.bestclouds.com.cn
+	https://spgznew.bestclouds.com.cn:20443			UAT2-测试-嵌入页面
+	https://spgznew.bestclouds.com.cn:29000			UAT2-测试-的onlyoffice
+	https://spgznew.bestclouds.com.cn:28062			UAT2-测试-转发
+	https://spgznew.bestclouds.com.cn:28013			UAT2-测试-转发Eladmin后端
+	https://spgznew.bestclouds.com.cn:29061			UAT2-测试-转发后端
+
+gc.bestclouds.com.cn
+	https://gc.bestclouds.com.cn:11443		国创-生产-11443
+	https://gc.bestclouds.com.cn:38000		国创-生产-eadmin后台
+	https://gc.bestclouds.com.cn:38061		国创-生产-微信后端38061
+	https://gc.bestclouds.com.cn:39001		国创-生产-前端
+	https://gc.bestclouds.com.cn:39000		渝立-生产-前端
+
+ylx.bestclouds.com.cn
+	https://ylx.bestclouds.com.cn:19060		渝链信-生产-eladmin后端
+	https://ylx.bestclouds.com.cn:18099		渝链信-生产-gzgateway后端
+	https://ylx.bestclouds.com.cn:18075		渝链信-生产-paygateway
+	https://ylx.bestclouds.com.cn:37001		渝链信-生产-公证前端
+	https://ylx.bestclouds.com.cn:37002		渝链信-生产-商户前端
+	https://ylx.bestclouds.com.cn:19061		渝链信-生产-微信后端
+	https://ylx.bestclouds.com.cn:10443		渝链信-生产-web_list前端
+
+ylxtest.bestclouds.com.cn
+	https://ylxtest.bestclouds.com.cn:38005		渝链信-测试-微信mgmt-contr后端接口
+	https://ylxtest.bestclouds.com.cn:38003		渝链信-测试-后端商户接口
+	https://ylxtest.bestclouds.com.cn:38001		渝链信-测试-后端order
+	https://ylxtest.bestclouds.com.cn:38075		渝链信-测试-paygateway
+	https://ylxtest.bestclouds.com.cn:30443		渝链信-测试-web_list
+	https://ylxtest.bestclouds.com.cn:38004		渝链信-测试-公证前端
+	https://ylxtest.bestclouds.com.cn:38002		渝链信-测试-商户前端
+
+https://spgznew.bestclouds.com.cn:20443 UAT2-测试-嵌入页面
+https://spgznew.bestclouds.com.cn:29000 UAT2-测试-的onlyoffice
+https://spgznew.bestclouds.com.cn:28062 UAT2-测试-转发
+https://spgznew.bestclouds.com.cn:28013 UAT2-测试-转发Eladmin后端
+https://spgznew.bestclouds.com.cn:29061 UAT2-测试-转发后端
+https://gc.bestclouds.com.cn:11443 国创-生产-11443
+https://gc.bestclouds.com.cn:38000 国创-生产-eadmin后台
+https://gc.bestclouds.com.cn:38061 国创-生产-微信后端38061
+https://gc.bestclouds.com.cn:39001 国创-生产-前端
+https://gc.bestclouds.com.cn:39000 渝立-生产-前端
+https://ylx.bestclouds.com.cn:19060 渝链信-生产-eladmin后端
+https://ylx.bestclouds.com.cn:18099 渝链信-生产-gzgateway后端
+https://ylx.bestclouds.com.cn:18075 渝链信-生产-paygateway
+https://ylx.bestclouds.com.cn:37001 渝链信-生产-公证前端
+https://ylx.bestclouds.com.cn:37002 渝链信-生产-商户前端
+https://ylx.bestclouds.com.cn:19061 渝链信-生产-微信后端
+https://ylx.bestclouds.com.cn:10443 渝链信-生产-web_list前端
+https://ylxtest.bestclouds.com.cn:38005 渝链信-测试-微信mgmt-contr后端接口
+https://ylxtest.bestclouds.com.cn:38003 渝链信-测试-后端商户接口
+https://ylxtest.bestclouds.com.cn:38001 渝链信-测试-后端order
+https://ylxtest.bestclouds.com.cn:38075 渝链信-测试-paygateway
+https://ylxtest.bestclouds.com.cn:30443 渝链信-测试-web_list
+https://ylxtest.bestclouds.com.cn:38004 渝链信-测试-公证前端
+https://ylxtest.bestclouds.com.cn:38002 渝链信-测试-商户前端
 
 如果你在踏入人生的下一个阶段时，能坚定不移地为他人创造价值，那么你更有可能成为掌舵者；
 如果你意识到动起来比找动力更重要，那么你更有可能成为掌舵者；
