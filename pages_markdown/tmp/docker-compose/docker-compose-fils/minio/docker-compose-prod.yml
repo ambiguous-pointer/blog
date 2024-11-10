@@ -1,0 +1,17 @@
+name: ylx-test
+services:
+  minio:
+    image: docker-registry.bestclouds.com.cn/minio:latest
+    container_name: minio-test
+    networks:
+      - ylx-test
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - ./docker_volumes/minio/data:/data
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: password
+    command: server /data --console-address ":9001"
+    restart: unless-stopped

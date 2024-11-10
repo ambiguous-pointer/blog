@@ -1,0 +1,29 @@
+#apt-get install -y iputils-ping curl wget
+# 心跳 和 内存限制 
+## 查看  可活动的端口 `sysctl net.ipv4.ip_local_port_range`  => net.ipv4.ip_local_port_range = 32768    60999
+name: ylx-test
+include:
+  ## 环境组
+  - path: docker-compose-fils/zookeeper-server-${DOCKER_DEPLOY:-dev}.yml
+    project_directory: .
+    env_file: 
+      - ./docker-compose-fils/.zookeeper-server.env.${DOCKER_DEPLOY:-dev}
+      - ./docker-compose-fils/.env.${DOCKER_DEPLOY:-dev}
+  - path: docker-compose-fils/redis-server-${DOCKER_DEPLOY:-dev}.yml
+    project_directory: .
+    env_file: 
+      - ./docker-compose-fils/.redis-server.env.${DOCKER_DEPLOY:-dev}
+      - ./docker-compose-fils/.env.${DOCKER_DEPLOY:-dev}
+  ## 服务组
+  - path: docker-compose-fils/mgmt-controller-${DOCKER_DEPLOY:-dev}.yml
+    project_directory: .
+    env_file: 
+      - ./docker-compose-fils/.mgmt-controller.env.${DOCKER_DEPLOY:-dev}
+      - ./docker-compose-fils/.env.${DOCKER_DEPLOY:-dev}
+  - path: docker-compose-fils/order-gateway-${DOCKER_DEPLOY:-dev}.yml
+    project_directory: .
+    env_file: 
+      - ./docker-compose-fils/.order-gateway.env.${DOCKER_DEPLOY:-dev}
+      - ./docker-compose-fils/.env.${DOCKER_DEPLOY:-dev}
+networks:
+  ylx-test:

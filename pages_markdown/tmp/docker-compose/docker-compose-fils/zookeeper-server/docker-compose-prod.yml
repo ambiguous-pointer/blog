@@ -1,0 +1,25 @@
+name: ylx-test
+services:
+  zookeeper-server:
+      image: zookeeper:3.8.3
+      container_name: zookeeper-server
+      restart: on-failure:3
+      deploy:
+        resources:
+          limits:
+            cpus: '0.50'
+            memory: 512M
+            pids: 128
+          reservations:
+            cpus: '0.1'
+            memory: 250M
+      networks:
+        - ylx-test
+      environment:
+        - ALLOW_ANONYMOUS_LOGIN=yes
+      ports:
+        - "4181:2181" ## 暴露出的端口尽量在32768-60999 范围
+      # volumes:
+      #   - ./docker_volumes/zookeeper-ylx1/log:/datalog
+      #   - ./docker_volumes/zookeeper-ylx1/data:/data
+      #   - ./docker_volumes/zookeeper-ylx1/conf:/conf

@@ -1,0 +1,49 @@
+name: ylx-test
+services:
+  order-gateway:
+    container_name: order-gateway
+    restart: on-failure:3
+    build:
+      args:
+        - JAR_WORK_PATH=/data/spring-boot/config
+        - JAR_PATH=./order-gateway
+        - JAR_NAME=ylx-order-gateway-deploy-0.0.1-SNAPSHOT.jar
+        - JAR_PROFILE=${JAR_PROFILE:?error}
+      context: .
+      dockerfile: ./order-gateway/dockerfile
+      platforms:
+        - "linux/${DOCKER_PLATFORM:-amd64}"
+    image: docker-registry.bestclouds.com.cn/order-gateway:${IMAGE_VERSION:?error}${IMAGE_SUFFIX:?error}-${JAR_PROFILE:?error}
+    environment:
+      - JAVA_OPTS=-Xmx1024M -Xms1024M -Dserver.port=8080 -Dspring.profiles.active=${JAR_PROFILE:?error}
+      - ZK_SERVER=zookeeper-server
+      - ZK_PORT=2181
+      - REDIS_SERVER=redis-server
+      - REDIS_PORT=6379
+    deploy:
+      resources:
+        limits:
+          cpus: '0.80'
+          memory: 1024M
+          pids: 1024
+        reservations:
+          cpus: '0.1'
+          memory: 128M
+    ports:
+      - "59062:8080" ## 服务端口  暴露出的端口尽量在32768-60999 范围
+      - "50052:5005" ## 远程调试接口 暴露出的端口尽量在32768-60999 范围
+    volumes:
+      - ./docker_volumes/order-gateway/config:/data/spring-boot/config 
+      - ./docker_volumes/order-gateway/log:/log
+      - /home/gzaccount/data:/home/gzaccount/data ## 文件存储的
+    networks:
+      - ylx-test
+    links:
+      - zookeeper-server
+      - redis-server
+    extra_hosts:
+      - "zookeeper-server1=172.30.0.17"
+      - "redis-server1=172.30.0.17"
+      - "localhost=::1"
+      - "localhost=127.0.0.1"
+      - "localhost=[::1]"

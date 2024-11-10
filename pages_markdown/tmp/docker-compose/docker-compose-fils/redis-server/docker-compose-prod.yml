@@ -1,0 +1,10 @@
+name: ylx-test
+services:
+  redis-server:
+    image: redis:6.2.3
+    container_name: redis-server
+    restart: on-failure:3
+    networks:
+      - ylx-test
+    ports:
+      - "36370:6379" ## 暴露出的端口尽量在32768-60999 范围

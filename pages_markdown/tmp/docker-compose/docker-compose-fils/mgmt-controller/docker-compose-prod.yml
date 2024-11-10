@@ -1,0 +1,48 @@
+name: ylx-test
+services:
+  mgmt-controller:
+    container_name: mgmt-controller
+    restart: on-failure:3
+    build:
+      args:
+        - JAR_WORK_PATH=/data/spring-boot/config
+        - JAR_PATH=./mgmt-controller
+        - JAR_NAME=ylx-mgmt-controller-0.0.1-SNAPSHOT.jar
+        - JAR_PROFILE=${JAR_PROFILE:?error}
+      context: .
+      dockerfile: ./docker-compose-fils/mgmt-controller/dockerfile
+      platforms:
+        - "linux/${DOCKER_PLATFORM:-amd64}"
+    image: ${DOCKER_REGISTRY:-docker-registry.bestclouds.com.cn}/${DOCKER_PROJECT_NAME:?error}/${IMAGE_NAME:?error}:${IMAGE_VERSION:?error}${IMAGE_SUFFIX:?error}-${JAR_PROFILE:?error}
+    environment:
+      - JAVA_OPTS=-Xmx1024M -Xms1024M -Dserver.port=8080 -Dspring.profiles.active=${JAR_PROFILE:?error}
+      - ZK_SERVER=zookeeper-server
+      - ZK_PORT=2181
+      - REDIS_SERVER=redis-server
+      - REDIS_PORT=6379
+    deploy:
+      resources:
+        limits:
+          cpus: '0.80'
+          memory: 1024M
+          pids: 1024
+        reservations:
+          cpus: '0.1'
+          memory: 128M
+    ports:
+      - "59061:8080" ## 服务端口 暴露出的端口尽量在32768-60999 范围
+      - "50051:5005" ## 远程调试接口 暴露出的端口尽量在32768-60999 范围
+    volumes:
+      - ./docker_volumes/mgmt-controller/config:/data/spring-boot/config 
+      - ./docker_volumes/mgmt-controller/log:/log
+      - /home/gzaccount/data:/home/gzaccount/data ## 文件存储的
+    networks:
+      - ylx-test
+    links:
+      - zookeeper-server
+      - redis-server
+    extra_hosts:
+      - "zookeeper1-ylx=172.30.0.17"
+      - "redis1-ylx=172.30.0.17"
+      - "myhostv6=::1"
+      - "myhostv6=[::1]"
